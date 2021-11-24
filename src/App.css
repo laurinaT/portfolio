@@ -1,0 +1,44 @@
+:root {
+	--pink:#f9c4be;
+	--blue:#dfefeb;
+	--white:#fef6f0;
+	--gray:#66605b;
+	--brown:#d1afaa;
+}
+
+
+.bg-pink {
+    --bs-bg-opacity: 1;
+    background-color: var(--pink) !important;
+}
+
+.bg-blue {
+    --bs-bg-opacity: 1;
+    background-color: var(--blue) !important;
+}
+
+.bg-white {
+    --bs-bg-opacity: 1;
+    background-color: var(--white) !important;
+}
+
+.bg-brown {
+    --bs-bg-opacity: 1;
+    background-color: var(--brown) !important;
+}
+
+.text-primary {
+    --bs-text-opacity: 1;
+    color: var(--gray) !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap');
+
+h1 {
+font-family: "Quattrocento";
+}
+
+h2 {
+font-family: "ParadiseThoughts";
+font-size: 7em;
+}
