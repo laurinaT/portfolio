@@ -6,6 +6,10 @@
 	--brown:#d1afaa;
 }
 
+* {
+color: var(--gray);
+font-family: "Quattrocento";
+}
 
 .bg-pink {
     --bs-bg-opacity: 1;
@@ -34,11 +38,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap');
 
+
 h1 {
 font-family: "Quattrocento";
 }
 
 h2 {
 font-family: "ParadiseThoughts";
-font-size: 7em;
+font-size: calc(3rem + 1.2vw);
+}
+
+.navbar-nav-scroll{
+	--bs-scroll-height: 100px;
 }
