@@ -55,3 +55,22 @@ font-size: calc(3rem + 1.2vw);
 .border-pink{
 border: solid 10px var(--pink);
 }
+
+.btn-pink {
+    color: #fff;
+    background-color: var(--pink);
+    border-color: var(--pink);
+}
+.btn-pink:hover {
+    color: var(--pink);
+    background-color: var(--white);
+    border-color: var(--pink);
+}
+
+@media screen and (min-width: 1200px) {
+	.etoiles {
+	background-image: url("./img/etoiles.png");
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	}
+}

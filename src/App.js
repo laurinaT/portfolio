@@ -14,7 +14,7 @@ function App() {
     <div className="App">
 		<Nav />
 		<Header />
-		<main className="container my-5">
+		<main className="container-fluid p-0 my-5">
 			<Routes>
 				<Route path="/" element={<Accueil />} />
 				<Route path="/home" element={<Accueil />} />
