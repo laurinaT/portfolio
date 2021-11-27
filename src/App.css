@@ -51,3 +51,7 @@ font-size: calc(3rem + 1.2vw);
 .navbar-nav-scroll{
 	--bs-scroll-height: 100px;
 }
+
+.border-pink{
+border: solid 10px var(--pink);
+}
