@@ -1,6 +1,8 @@
 import photo_1 from "../../img/photo_ID.jpg";
+import etoiles from "../../img/etoiles.png";
 
-function Presentation() {
+
+function Presentation2() {
 
     return (
         <section className="row container-fluid bg-white p-0 m-0  justify-content-center text-center">
@@ -19,12 +21,9 @@ function Presentation() {
 	avec le HTML et le CSS mais j'ai très vite été limitée par le manque de connaissances que j'avais dans les autres langages.</p>
 					<p>C'est pourquoi cette année, je me suis lancée dans la reprise de mes études avec un titre professionnel en développement web et web mobile.</p>
 				</div>
-				<div>
-					<button type="button" className="btn btn-pink">En savoir plus...</button>
-				</div>
 			</div>
 		</section>
     )
 }
 
-export default Presentation;
+export default Presentation2;
