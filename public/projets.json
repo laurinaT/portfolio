@@ -1,0 +1,45 @@
+[
+	{
+		"name":"Jeu du Shifumi", 
+		"link":"https://laurinat.github.io/shifumi/",
+		"text":"Le jeu du Shifumi est mon premier jeu créé en JavaScript. Il s'agit du premier projet créé dans le cadre de ma formation de développement Web. Le joueur enregistre son nom puis choisi un élément pierre fueille ou ciseaux, l'ordinateur choisi à son tour de manière aléatoire un élément pierre fueille ou ciseaux. La partie se joue en trois manches, le joueur qui remporte les trois manches le premier gagne le tour.",
+		"resume":"Jeu du Shifumi créé en JavaScript.",
+		"pictures":"shifumi.jpg"
+    },
+
+	{    
+		"name":"Jeu du pendu",
+		"link":"https://laurinat.github.io/jeu_du_pendu/",
+		"text":"Le jeu du pendu est le deuxième jeu que j'ai créé dans le cadre de ma fortmation de développeur Web. Il s'agit d'un jeu créé totalement en JavaScript. L'objectif pour le joueur est de retrouver le mot caché. Le joueur donne des lettres au hasard, si la lettre fait partie du mot alors elle se découvre sinon le joueur perd un point.  Le joueur perd lorsque son score atteind zéro ou il gagne s'il arrive à découvrir le mot avant la fin des sept coups impartis.",
+		"resume":"Jeu du pendu créé en JavaScript.",
+		"pictures":"jeu_du_pendu.jpg"
+	},
+	{    
+		"name":"Site internet Terre de Geekette",
+		"link":"https://laurinat.github.io/Terre_de_geekette/",
+		"text":"Le site internet Terre de geekette est le premier site que j'ai créé en HTML et CSS dans le cadre de ma formation de développeuse Web. <br > Il s'agit d'un site qui a pour objectif de vendre du matériel informatique féminin.L'objectif du site est de présenter des produits, de présenter l'entreprise mais aussi la création d'une page de contact avec vérification des données avant envoi du formulaire.",
+		"resume":"Site internet de présentation et de vente de produits informatiques à un public essentiellement féminin.",
+		"pictures":"terre_de_geekette.jpg"
+	},
+	{    
+		"name":"Site internet secureBank",
+		"link":"https://laurinat.github.io/secureBank/",
+		"text":"Le site internet secureBank est un site internet créé en HTML, CSS et JavaScript. Il s'agit de mon premier site réunissant ces trois technologies. L'objectif technique de ce site consiste à utiliser des requêtes AJAX afin d'afficher le contenu du site de façon dynamique.",
+		"resume":"Site internet créé en HTML, CSS et JavaScript. Utilisation des requêtes AJAX.",
+		"pictures":"secureBank.jpg"
+	},
+	{    
+		"name":"Site internet NorImmo",
+		"link":"https://lopezremi.github.io/NorImmo/",
+		"text":"Le site internet NorImmo est un site internet que nous avons créer par groupe de trois. L'objectif principal était de travailler en groupe sur des fichiers distants. Je me suis principalement occupée du formulaire de contact, le but était de valider les informations d'entrées de l'utilisateur à l'aide de RegEx, de vérifications HTML afin de valider la soumission et l'envoi du formulaire.",
+		"resume":"Site internet créé en groupe à l'aide du HTML, du CSS et du JavaScript.",
+		"pictures":"norImmo.jpg"
+	},	
+	{    
+		"name":"Jeu du memory",
+		"link":"https://laurinat.github.io/memory/",
+		"text":"Le jeu du memory est un jeu de cartes où l'objectif du joueur est de retrouver les toutes les paires cachées. Il s'agit d''un jeu créé en HTML, CSS et JavaScript. Le joueur clique sur une carte, elle se retourne puis sur une deuxième qui se retourne à son tour. L'ordinateur vérifie si les cartes sont identiques, si c'est le cas elles restent retournées sinon elles se remettent face cachée. Le joueur peut alors rejouer.  L'utilisateur gagne si toutes les cartes sont retournées avant le nombre de coups impartis.",
+		"resume":"Le jeu du memory est un jeu de paires créé en HTML, CSS et JavaScript.",
+		"pictures":"jeu_du_memory.jpg"
+	}
+]

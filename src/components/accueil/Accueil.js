@@ -1,10 +1,13 @@
+import Presentation from "./Presentation"; 
+import Projets from "./Projets"; 
 
 function Accueil() {
 
     return (
-        <section>
-           <h2>Accueil</h2>
-        </section>
+        <div className="container-fluid m-0 bg-white py-5">
+			<Presentation />
+			<Projets />
+        </div>
     )
 }
 

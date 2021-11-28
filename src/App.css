@@ -1,3 +1,5 @@
+/* ------------------------------ colors global ----------- */
+
 :root {
 	--pink:#f9c4be;
 	--blue:#dfefeb;
@@ -41,17 +43,63 @@ font-family: "Quattrocento";
 
 h1 {
 font-family: "Quattrocento";
+text-align: center;
 }
 
 h2 {
 font-family: "ParadiseThoughts";
 font-size: calc(3rem + 1.2vw);
+text-align: center;
 }
 
 .navbar-nav-scroll{
 	--bs-scroll-height: 100px;
 }
 
+/* ------------------------------ border ----------- */
+
 .border-pink{
 border: solid 10px var(--pink);
+}
+
+/* ------------------------------ buttons ----------- */
+
+
+.btn-pink {
+    color: #fff;
+    background-color: var(--pink);
+    border-color: var(--pink);
+}
+.btn-pink:hover {
+    color: var(--pink);
+    background-color: var(--white);
+    border-color: var(--pink);
+}
+
+.btn-blue {
+    color: var(--brown);
+    background-color: var(--blue);
+    border-color: var(--blue);
+}
+.btn-blue:hover {
+    color: var(--brown);
+    background-color: var(--blue);
+    border-color: var(--brown);
+}
+
+
+
+/* ------------------------------ card ----------- */
+.mt-n1 {
+  margin-top: -1rem !important;
+}
+
+/* ------------------------------ @médias ----------- */
+
+@media screen and (min-width: 1200px) {
+	.etoiles {
+	background-image: url("./img/etoiles.png");
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	}
 }
