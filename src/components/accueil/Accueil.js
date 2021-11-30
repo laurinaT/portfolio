@@ -1,4 +1,4 @@
-import Presentation from "./Presentation"; 
+import Presentation from "./presentation"; 
 import Projets from "./Projets"; 
 
 function Accueil() {
