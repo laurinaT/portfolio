@@ -1,5 +1,10 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
+import Modal from 'react-bootstrap/Modal'
+import ModalHeader from 'react-bootstrap/ModalHeader'
+import ModalTitle from 'react-bootstrap/ModalTitle'
+import ModalBody from 'react-bootstrap/ModalBody'
+import ModalFooter from 'react-bootstrap/ModalFooter'
 
 import Card from "./Card";
 
@@ -33,7 +38,7 @@ function Projets() {
     // - qu'on a reçu les données
     if (error) {
         return ( 
-			<div className = "alert alert-danger" >
+			<div classNameName = "alert alert-danger" >
             Une erreur est survenue le chargement a échoué: { error.message } 
 			</div>
         )
@@ -41,22 +46,23 @@ function Projets() {
 
     if (!isLoaded) {
         return ( 
-			<div className = "alert alert-info" >
+			<div classNameName = "alert alert-info" >
             Chargement des projets en cours 
 			</div>
         )
     }
 
     console.log(Projets);
+
     return ( 
-		<section className = "row justify-content-center" >
-            <div >
-            	<h1 > Mes projets </h1> 
-				<h2 > Voici mon travail ! </h2> 
+		<section className="row justify-content-center" >
+            <div>
+            	<h1> Mes projets </h1> 
+				<h2> Voici mon travail ! </h2> 
 			</div> 
-			{Projets.map(projet => < Card projet = { projet }/>)} 
+			{Projets.map(projet => < Card projet = { projet }/>)}
 		</section>
-    )
+    );
 }
 
 export default Projets;

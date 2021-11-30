@@ -1,4 +1,5 @@
 import {Link} from 'react-router-dom'
+import ShowInfo from '../accueil/ShowInfo';
 
 function Card(props) {
     return(
@@ -9,10 +10,7 @@ function Card(props) {
 			<div className="card-body col-12">
 				<h2 className="card-title">{props.projet.name}</h2>
 				<p className="card-text">{props.projet.resume}</p>
-				{/* <Link target="_blank" to={props.projet.link}>
-				<a href="{props.projet.link}" className="mx-2 btn btn-pink">Voir la GH page</a>
-				</Link> */}
-				<a href={props.projet.link} className="mx-2 btn btn-blue">En savoir plus...</a>
+				{/* <a className="mx-2 btn btn-blue" onclick={ ShowInfo() }>En savoir plus...</a> */}
 				<a href={props.projet.link} target="_blank" className="mx-2 btn btn-pink">Voir la GH page</a>
 			</div>
 		</div>
