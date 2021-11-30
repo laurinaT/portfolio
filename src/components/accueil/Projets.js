@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
 
+
 import Card from "./Card";
 
 function Projets() {
@@ -56,8 +57,8 @@ console.log(projets);
     return (
 		<section className="row justify-content-center">
 			<div>
-				<h1>Mes projets</h1>
-				<h2>Voici mon travail !</h2>
+				<h1 className="mt-5">Mes projets</h1>
+				<h2 className="mb-5">Voici mon travail !</h2>
 			</div>
  			{fourProjets.map(projet => <Card projet ={projet}/>)}
 		</section>

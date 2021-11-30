@@ -1,9 +1,11 @@
 import photo_1 from "../../img/photo_ID.jpg";
+import { Link } from "react-router-dom";
+
 
 function Presentation() {
 
     return (
-        <section className="row container-fluid bg-white p-0 m-0  justify-content-center text-center">
+        <section className="row container-fluid bg-white p-0 m-0 mb-5  justify-content-center text-center">
 			<div className="col-12 col-sm-4 m-0 p-0">
 				<img className="border-pink img-fluid" src={photo_1} alt={"photo_ID"}/>
 			</div>
@@ -20,7 +22,7 @@ function Presentation() {
 					<p>C'est pourquoi cette année, je me suis lancée dans la reprise de mes études avec un titre professionnel en développement web et web mobile.</p>
 				</div>
 				<div>
-					<button type="button" className="btn btn-pink">En savoir plus...</button>
+					<button  target="_blank" className="mx-2 btn btn-pink"><Link className="nav-link btn-pink" to="/presentation">En savoir plus...</Link></button>
 				</div>
 			</div>
 		</section>

@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom'
+
 function Card(props) {
     return(
 		<div className="card col-10 col-md-5 m-5 align-items-center">
@@ -7,8 +9,9 @@ function Card(props) {
 			<div className="card-body col-12">
 				<h2 className="card-title">{props.projet.name}</h2>
 				<p className="card-text">{props.projet.resume}</p>
-				<a href="{props.projet.link}" className="mx-2 btn btn-pink">Voir la GH page</a>
-				<a href="{props.projet.link}" className="mx-2 btn btn-blue">En savoir plus...</a>
+				<button className="mx-2 btn btn-blue">En savoir plus...</button>
+				<a href={props.projet.link} target="_blank" className="mx-2 btn btn-pink">Voir la GH page</a>
+				
 			</div>
 		</div>
     )

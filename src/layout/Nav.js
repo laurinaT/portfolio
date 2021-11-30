@@ -11,10 +11,10 @@ function Nav() {
 				<div className="row collapse navbar-collapse" id="navbarScroll">
 					<ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll justify-content-center align-items-center">
 						<li className="nav-item"><Link className="nav-link" to="/home">Accueil</Link></li>
+						<li className="nav-item"><Link className="nav-link" to="/presentation">Présentation</Link></li>
 						<li className="nav-item"><Link className="nav-link" to="/projets">Projets</Link></li>
-						{/* <li className="nav-item"><Link className="nav-link" to="/presentation">Présentation</Link></li> */}
 						<li className="nav-item"><Link className="nav-link" to="/mon_cv">Mon CV</Link></li>
-						{/* <li className="nav-item"><Link className="nav-link" to="/contact">Contact</Link></li> */}
+						<li className="nav-item"><Link className="nav-link" to="/contact">Contact</Link></li>
 					</ul>
 				</div>
 			</div>

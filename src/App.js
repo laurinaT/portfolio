@@ -9,7 +9,8 @@ import Footer from './layout/Footer';
 import Accueil from "./components/accueil/Accueil";
 import Cv from "./components/mon_cv/Cv";
 import Projets from "./components/projets/Projets";
-// import Presentation from './components/accueil/Presentation';
+import Presentation2 from './components/presentation/Presentation2';
+import Contact from './components/contact/Contact';
 
 
 function App() {
@@ -22,9 +23,9 @@ function App() {
 				<Route path="/" element={<Accueil />} />
 				<Route path="/home" element={<Accueil />} />
 				<Route path="/projets" element={<Projets />} />
-				{/* <Route path="/presentation" element={<Presentation />} /> */}
+				<Route path="/presentation" element={<Presentation2 />} />
 				<Route path="/mon_cv" element={<Cv />} />
-				{/* <Route path="/contact" element={<Contact />} /> */}
+				<Route path="/contact" element={<Contact />} />
 			</Routes>
 		</main>	
     	<Footer />
