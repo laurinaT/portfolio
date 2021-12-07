@@ -1,16 +1,16 @@
 import './App.css';
 
 import { Routes, Route, Link } from "react-router-dom";
-import Nav from './layout/Nav';
+import Nav from './portfolio/layout/Nav';
 
-import Header from "./layout/Header";
-import Footer from './layout/Footer';
+import Header from "./portfolio/layout/Header";
+import Footer from './portfolio/layout/Footer';
 
-import Accueil from "./components/accueil/Accueil";
-import Cv from "./components/mon_cv/Cv";
-import Projets from "./components/projets/Projets";
-import Presentation2 from './components/presentation/Presentation2';
-import Contact from './components/contact/Contact';
+import Accueil from "./portfolio/components/accueil/Accueil";
+import Cv from "./portfolio/components/mon_cv/Cv";
+import Projets from "./portfolio/components/projets/Projets";
+import Presentation2 from './portfolio/components/presentation/Presentation2';
+import Contact from './portfolio/components/contact/Contact';
 
 
 function App() {

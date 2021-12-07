@@ -1,4 +1,4 @@
-import cv from "../../img/cv_laurina_toussaint.png";
+import cv from "../../portfolio/img/cv_laurina_toussaint.png";
 
 function Cv() {
 

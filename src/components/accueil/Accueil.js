@@ -1,5 +1,5 @@
-import Presentation from "./Presentation"; 
-import Projets from "./Projets"; 
+import Presentation from "./portfolio/Presentation"; 
+import Projets from "./portfolio/Projets"; 
 
 function Accueil() {
 

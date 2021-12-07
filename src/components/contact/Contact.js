@@ -1,4 +1,4 @@
-import Photo from "../../img/arc-en-ciel.png";
+import Photo from "../../portfolio/img/arc-en-ciel.png";
 
 function Contact() {
     return(

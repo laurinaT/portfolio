@@ -6,7 +6,7 @@ import ModalTitle from 'react-bootstrap/ModalTitle'
 import ModalBody from 'react-bootstrap/ModalBody'
 import ModalFooter from 'react-bootstrap/ModalFooter'
 
-import Card from "./Card";
+import Card from "./portfolio/Card";
 
 function Projets() {
     // Etat pour le tableau de projets renvoyé par l'API

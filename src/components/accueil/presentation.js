@@ -22,7 +22,7 @@ function Presentation() {
 					<p>C'est pourquoi cette année, je me suis lancée dans la reprise de mes études avec un titre professionnel en développement web et web mobile.</p>
 				</div>
 				<div>
-					<button  target="_blank" className="mx-2 btn btn-pink"><Link className="nav-link btn-pink" to="/presentation">En savoir plus...</Link></button>
+					<button  target="_blank" className="mx-2 btn btn-pink"><Link className="nav-link btn-pink" to="portfolio/presentation">En savoir plus...</Link></button>
 				</div>
 			</div>
 		</section>

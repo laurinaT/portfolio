@@ -1,4 +1,4 @@
-import photo_1 from "../../img/photo_ID.jpg";
+import photo_1 from "../../portfolio/img/photo_ID.jpg";
 import etoiles from "../../img/etoiles.png";
 
 
